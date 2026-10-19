@@ -1,0 +1,114 @@
+{
+  "brand": "RebuttalForge",
+  "scan_scope": "Current source tree and its generated web build; third-party node_modules and this policy document excluded.",
+  "compatibility_exceptions": [
+    {
+      "path": ".env.example",
+      "token": "DISPUTE_DESK_TEST_DOUBLE",
+      "max_count": 1,
+      "reason": "Existing disclosed test-double configuration."
+    },
+    {
+      "path": ".env.example",
+      "token": "DISPUTE_DESK_OPERATOR_TOKEN",
+      "max_count": 1,
+      "reason": "Existing operator authentication configuration."
+    },
+    {
+      "path": ".env.example",
+      "token": "dispute-desk.sqlite",
+      "max_count": 1,
+      "reason": "Preserve existing database selection."
+    },
+    {
+      "path": "src/main.ts",
+      "token": "DISPUTE_DESK_TEST_DOUBLE",
+      "max_count": 1,
+      "reason": "Existing disclosed test-double configuration."
+    },
+    {
+      "path": "src/main.ts",
+      "token": "DISPUTE_DESK_OPERATOR_TOKEN",
+      "max_count": 1,
+      "reason": "Existing operator authentication configuration."
+    },
+    {
+      "path": "src/main.ts",
+      "token": "dispute-desk.sqlite",
+      "max_count": 1,
+      "reason": "Preserve existing database selection."
+    },
+    {
+      "path": "scripts/seed-simulator.ts",
+      "token": "DISPUTE_DESK_URL",
+      "max_count": 1,
+      "reason": "Existing simulator seeding API URL configuration."
+    },
+    {
+      "path": "scripts/rehearsal.ts",
+      "token": "dispute-desk-api",
+      "max_count": 2,
+      "reason": "Existing rehearsal exchange schema value."
+    },
+    {
+      "path": "scripts/rehearsal.ts",
+      "token": "X-Dispute-Desk-Simulator",
+      "max_count": 1,
+      "reason": "Displayed spelling of protocol header."
+    },
+    {
+      "path": "scripts/verify-offline.mjs",
+      "token": "DISPUTE_DESK_TSX_IMPORT",
+      "max_count": 1,
+      "reason": "Existing offline-check loader override."
+    },
+    {
+      "path": "test/simulator.test.ts",
+      "token": "x-dispute-desk-simulator",
+      "max_count": 1,
+      "reason": "Existing simulator detection header."
+    },
+    {
+      "path": "src/paypal/client.ts",
+      "token": "x-dispute-desk-simulator",
+      "max_count": 1,
+      "reason": "Existing simulator detection header."
+    },
+    {
+      "path": "src/agent/test-double.ts",
+      "token": "DISPUTE_DESK_TEST_DOUBLE",
+      "max_count": 1,
+      "reason": "Existing disclosed test-double configuration."
+    },
+    {
+      "path": "web/src/api.ts",
+      "token": "dispute-desk-operator-token",
+      "max_count": 1,
+      "reason": "Preserve browser session lookup."
+    },
+    {
+      "path": "web/dist/assets/index-QoVaMzDR.js",
+      "token": "dispute-desk-operator-token",
+      "max_count": 1,
+      "reason": "Preserve browser session lookup."
+    },
+    {
+      "path": "README.md",
+      "token": "DISPUTE_DESK_TEST_DOUBLE",
+      "max_count": 2,
+      "reason": "Exact existing configuration variable in runnable judge instructions."
+    },
+    {
+      "path": "README.md",
+      "token": "DISPUTE_DESK_OPERATOR_TOKEN",
+      "max_count": 1,
+      "reason": "Exact existing configuration variable in runnable judge instructions."
+    },
+    {
+      "path": "README.md",
+      "token": "DISPUTE_DESK_URL",
+      "max_count": 1,
+      "reason": "Exact existing configuration variable in runnable judge instructions."
+    }
+  ]
+}

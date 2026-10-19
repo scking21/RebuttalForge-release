@@ -1,0 +1,117 @@
+{
+  "scope": "Exact installed locked UI runtime dependency notices. Some dependencies may be tree-shaken or type-only; conservatively retained. Fonts are unmodified.",
+  "packages": [
+    {
+      "name": "@fontsource-variable/atkinson-hyperlegible-next",
+      "version": "5.3.0",
+      "license": "OFL-1.1",
+      "upstreamFile": "LICENSE",
+      "distributedFile": "licenses/fontsource-variable-atkinson-hyperlegible-next-5.3.0.LICENSE.txt",
+      "sha256": "474a034e99845062f661855caaa505880d0e9009deddc2727a92795eab374955"
+    },
+    {
+      "name": "@fontsource/atkinson-hyperlegible-mono",
+      "version": "5.3.0",
+      "license": "OFL-1.1",
+      "upstreamFile": "LICENSE",
+      "distributedFile": "licenses/fontsource-atkinson-hyperlegible-mono-5.3.0.LICENSE.txt",
+      "sha256": "05327050630a640eb824c8fcb7de8b2e605600d8863e4f531ca7c348239916c6"
+    },
+    {
+      "name": "ag-charts-types",
+      "version": "14.2.0",
+      "license": "MIT",
+      "upstreamFile": "LICENSE.txt",
+      "distributedFile": "licenses/ag-charts-types-14.2.0.LICENSE.txt",
+      "sha256": "31636f0472dda16bba11a7b78204e1f677b77452092e185a65cddd45b6c9fb29"
+    },
+    {
+      "name": "ag-grid-community",
+      "version": "36.2.0",
+      "license": "MIT",
+      "upstreamFile": "LICENSE.txt",
+      "distributedFile": "licenses/ag-grid-community-36.2.0.LICENSE.txt",
+      "sha256": "31636f0472dda16bba11a7b78204e1f677b77452092e185a65cddd45b6c9fb29"
+    },
+    {
+      "name": "ag-grid-react",
+      "version": "36.2.0",
+      "license": "MIT",
+      "upstreamFile": "LICENSE.txt",
+      "distributedFile": "licenses/ag-grid-react-36.2.0.LICENSE.txt",
+      "sha256": "31636f0472dda16bba11a7b78204e1f677b77452092e185a65cddd45b6c9fb29"
+    },
+    {
+      "name": "ag-stack",
+      "version": "36.2.0",
+      "license": "MIT",
+      "upstreamFile": "LICENSE.txt",
+      "distributedFile": "licenses/ag-stack-36.2.0.LICENSE.txt",
+      "sha256": "31636f0472dda16bba11a7b78204e1f677b77452092e185a65cddd45b6c9fb29"
+    },
+    {
+      "name": "js-tokens",
+      "version": "4.0.0",
+      "license": "MIT",
+      "upstreamFile": "LICENSE",
+      "distributedFile": "licenses/js-tokens-4.0.0.LICENSE.txt",
+      "sha256": "2213d91c606205c71eb051a199478cdc2adde945893404d7f1421436dd6d5cc1"
+    },
+    {
+      "name": "loose-envify",
+      "version": "1.4.0",
+      "license": "MIT",
+      "upstreamFile": "LICENSE",
+      "distributedFile": "licenses/loose-envify-1.4.0.LICENSE.txt",
+      "sha256": "4eb7543b08d955a6d23fcc224601d43ff566e775be918805e26210d7f6eb4893"
+    },
+    {
+      "name": "object-assign",
+      "version": "4.1.1",
+      "license": "MIT",
+      "upstreamFile": "license",
+      "distributedFile": "licenses/object-assign-4.1.1.LICENSE.txt",
+      "sha256": "6fb9754611c20f6649f68805e8c990e83261f29316e29de9e6cedae607b8634c"
+    },
+    {
+      "name": "prop-types",
+      "version": "15.8.1",
+      "license": "MIT",
+      "upstreamFile": "LICENSE",
+      "distributedFile": "licenses/prop-types-15.8.1.LICENSE.txt",
+      "sha256": "f657f99d3fb9647db92628e96007aabb46e5f04f33e49999075aab8e250ca7ce"
+    },
+    {
+      "name": "react",
+      "version": "19.3.0",
+      "license": "MIT",
+      "upstreamFile": "LICENSE",
+      "distributedFile": "licenses/react-19.3.0.LICENSE.txt",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "name": "react-dom",
+      "version": "19.3.0",
+      "license": "MIT",
+      "upstreamFile": "LICENSE",
+      "distributedFile": "licenses/react-dom-19.3.0.LICENSE.txt",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "name": "react-is",
+      "version": "16.13.1",
+      "license": "MIT",
+      "upstreamFile": "LICENSE",
+      "distributedFile": "licenses/react-is-16.13.1.LICENSE.txt",
+      "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85"
+    },
+    {
+      "name": "scheduler",
+      "version": "0.28.0",
+      "license": "MIT",
+      "upstreamFile": "LICENSE",
+      "distributedFile": "licenses/scheduler-0.28.0.LICENSE.txt",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    }
+  ]
+}

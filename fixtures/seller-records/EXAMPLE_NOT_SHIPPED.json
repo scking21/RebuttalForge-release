@@ -1,0 +1,8 @@
+[
+  {
+    "kind": "not_shipped",
+    "label": "Seller fulfilment note",
+    "fact": "Item was out of stock and never shipped. No label was purchased and no carrier ever received a parcel for this order.",
+    "recordedAt": "2026-10-03T16:00:00Z"
+  }
+]

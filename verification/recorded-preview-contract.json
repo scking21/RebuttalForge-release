@@ -1,0 +1,70 @@
+{
+  "format": "Recorded RebuttalForge frontend payload contract v1",
+  "reference_basis": "Historical retained preview hashes. This comparator describes an older recording; the October 18 narrated demonstration uses the current build.",
+  "reference_manifest_sha256": "1519e4d9361d5f99d68770d864caab46577cd32bd9a25fdcf3873fbc32eadff4",
+  "reference_video_sha256": "6cb1dd1fbe8fe86ffbd762b46d267466d90247da4b4c1b0a73fbe12488129904",
+  "assets": [
+    {
+      "original_asset": "atkinson-hyperlegible-mono-latin-400-normal-CmMGer93.woff2",
+      "bytes": 10056,
+      "sha256": "87b5b94c18025729fc6ed4e8c25221ade3746dc87213943fa4de49f1f0f26787"
+    },
+    {
+      "original_asset": "atkinson-hyperlegible-mono-latin-400-normal-Cmjm2dBj.woff",
+      "bytes": 12760,
+      "sha256": "0f362f0bd25c857d12135ad28719638ae8b493885e6156a763eec5b8d64520e2"
+    },
+    {
+      "original_asset": "atkinson-hyperlegible-mono-latin-700-normal-BQ8cw3oD.woff",
+      "bytes": 12760,
+      "sha256": "7eff8deee4dedc05ffe9591f48a7dbbb4ccb512af77e21498015d6ad033694ca"
+    },
+    {
+      "original_asset": "atkinson-hyperlegible-mono-latin-700-normal-BhOtGXDr.woff2",
+      "bytes": 10040,
+      "sha256": "f30319aa2ab224c5a19d177617e2141b002fcb95c1afe233214f9d342e47687d"
+    },
+    {
+      "original_asset": "atkinson-hyperlegible-mono-latin-ext-400-normal-CpVFOiMk.woff2",
+      "bytes": 6528,
+      "sha256": "1960608ff6f1c6c450adb7c6ce4e3d05a7e05dde61449b9f88ae2d14de78e3a1"
+    },
+    {
+      "original_asset": "atkinson-hyperlegible-mono-latin-ext-400-normal-ITMuFrSK.woff",
+      "bytes": 8384,
+      "sha256": "e995554a440ef46d500bc6d5726d4405a8a99da12adc6f533e896d30ce4dbf39"
+    },
+    {
+      "original_asset": "atkinson-hyperlegible-mono-latin-ext-700-normal-Cb4hxZGu.woff2",
+      "bytes": 6572,
+      "sha256": "46ba8678220358e306d918613782dd0f41194be0fd935da9c02d6326abd62fa8"
+    },
+    {
+      "original_asset": "atkinson-hyperlegible-mono-latin-ext-700-normal-Db6cZPB4.woff",
+      "bytes": 8396,
+      "sha256": "7cc31e2048ccbeaeabeb9efc4d7b02ceb15c1441b23985a240dce5ede07d1ad9"
+    },
+    {
+      "original_asset": "atkinson-hyperlegible-next-latin-ext-wght-normal-C6vrW8VD.woff2",
+      "bytes": 19092,
+      "sha256": "7dae0c6c66af1aec82e096186aeb1f0e6fa36ab8061ed65422f2b7daf4dd93f3"
+    },
+    {
+      "original_asset": "atkinson-hyperlegible-next-latin-wght-normal-BcXVPD7q.woff2",
+      "bytes": 33996,
+      "sha256": "18b2a1a39a2fa298b0ba5390aca68462669826c90925656f1c1f6796e0e1bbaf"
+    },
+    {
+      "original_asset": "index-CXRekZgU.css",
+      "bytes": 17672,
+      "sha256": "833f3237d1f02963aaed97f0d16ef4dd31fd9bcd44a96ad7313a787a14b43eab"
+    },
+    {
+      "original_asset": "index-lWIzOueI.js",
+      "bytes": 1429798,
+      "sha256": "4bb7d32899f48704f3e5142d8dc5793443886718e6ce7f1bb6b18b14c8e50d6c"
+    }
+  ],
+  "normalized_html_sha256": "964bb211272bc93b3fd9f3bd15cd0f6b393adf5d57cc03d67e87581a9173a98d",
+  "scope": "Matches retained verified frontend hashes. Does not prove unavailable original-source recovery, new video readback, or genuine integration."
+}

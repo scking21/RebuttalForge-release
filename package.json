@@ -1,0 +1,40 @@
+{
+  "name": "rebuttalforge",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node --import tsx src/main.ts",
+    "simulator": "node --import tsx src/simulator/main.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "rehearsal": "node --import tsx scripts/rehearsal.ts",
+    "seed:simulator": "node --import tsx scripts/seed-simulator.ts",
+    "web": "npm --prefix web run dev",
+    "test:offline": "node scripts/verify-offline.mjs",
+    "verify": "npm run verify:local && npm run verify:preview",
+    "verify:preview": "node scripts/check-preview-correspondence.mjs",
+    "verify:branding": "python3 scripts/check-branding.py",
+    "rehearsal:simulator": "node --import tsx scripts/rehearsal.ts --simulator",
+    "verify:local": "npm test && npm run test:offline && npm run typecheck && npm --prefix web run build && npm run verify:current-preview && npm run verify:notices && npm run verify:branding",
+    "verify:current-preview": "node scripts/current-build.mjs check",
+    "record:current-preview": "node scripts/current-build.mjs record",
+    "verify:notices": "node scripts/check-third-party-notices.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.132.1",
+    "@hono/node-server": "^2.1.4",
+    "hono": "^4.13.13",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "jsdom": "^30.1.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.3"
+  }
+}

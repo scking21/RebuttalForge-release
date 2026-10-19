@@ -1,0 +1,10 @@
+[
+  {
+    "kind": "carrier_delivery_scan",
+    "label": "Carrier delivery scan (UPS)",
+    "fact": "UPS scan: delivered to front door, signed 'S. BUYER', 2026-10-04 14:12 local. Tracking 1Z999AA10123456784.",
+    "recordedAt": "2026-10-04T19:12:00Z",
+    "carrier": "UPS",
+    "trackingNumber": "1Z999AA10123456784"
+  }
+]
